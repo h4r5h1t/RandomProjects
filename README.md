@@ -1,2 +1,2 @@
 # RandomProjects
-This repo is for posting my projects which i make generally for learning & practicing purpose.
+This repo is for my personal projects which i make generally for learning & practicing purposes.
