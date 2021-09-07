@@ -11,9 +11,9 @@ webdriver.get('https://www.instagram.com/accounts/login/?source=auth_switcher')
 sleep(3)
 
 username = webdriver.find_element_by_name('username')
-username.send_keys('gizmocomgaming')
+username.send_keys('')
 password = webdriver.find_element_by_name('password')
-password.send_keys('#@GizMoCom')
+password.send_keys('')
 
 button_login = webdriver.find_element_by_xpath("/html/body/div[1]/section/main/div/article/div/div[1]/div/form/div[4]/button") ##react-root > section > main > div > article > div > div:nth-child(1) > div > form > div:nth-child(3) > button
 button_login.click()
